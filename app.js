@@ -6,6 +6,7 @@ var logger = require('morgan');
 var debug = require('debug')('pila2:server');
 
 var indexRouter = require('./routes/index');
+//activa "userroutes " cuando se solicita el recurso raiz
 var usersRouter = require('./routes/users');
 
 var app = express();
