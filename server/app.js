@@ -1,37 +1,34 @@
-// Cargando dependencias
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var debug = require('debug')('dwpcii:server');
-
+var debug = require('debug')('dwpc2:server');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-// Creando la instancia de express
+// Se crea la instancia de express
 var app = express();
 
-// Configurando el motor de plantillas
+// Configurando el motor de plantilla
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
-// Se establecen los middlewares
+// Se establecen los middleware
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-// Crea un server de archivos estaticos
+// Se crea un server de archivos estaticos 
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
-// Registro de Middlewares de aplicación
 app.use('/', indexRouter);
-// Activa "usersRourter" cuando se
-// solicita "/users"
+// Activa "userRouter" cuando se 
+// solicita "/user"
 app.use('/users', usersRouter);
-// app.use('/author', (req, res)=>{
-//   res.json({mainDeveloper: "Ivan Rivalcoba"})
+// app.use('/author', (req, res) => {
+//   res.json({mainDeveloper: "Vianney Reyes"})
 // });
 
 // catch 404 and forward to error handler

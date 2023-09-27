@@ -1,41 +1,65 @@
-// Notas importanes
-// 🚨 El archivo de configuración debe usar ES5 no ES6
-// es por ello que veras "requires" no "imports"
+// Important notes
+// 🚨 Configuration file must use ES5 not ES6
+// that's why you will see "requires" not "imports"
 
-// Importar un administrador de rutas de archivos
+// Importing an file routing manager
 const path = require('path');
+// Importing plugin
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-// Exportamos un objeto de configuración
-// que sera usado por webpack
+// We export a configuration object
+// that will be used by webpack
 module.exports = {
-    // 0. Estableciendo el modo produccion
-    mode: 'production',
-  // 1. El archivo de entrada a partir del cual
-  // contendra todas las definiciones a empaquetar
+  // 1. The entry file from which
+  // it will contain all the definitions to package
   entry: "./client/index.js",
-  // 2. Especificar el archivo de salida
-  // Aqui se detalla donde quedara el archivo
-  // final empaquetado.
+  // 2. Specify the output file
+  // Here it is detailed where the file will be
+  // final packaged.
   output: {
-    // 2.1 Ruta absoluta de salida
-    // Note que se esta colocando en el directorio
-    // de archivos estáticos del proyecto
+    // 2.1 Absolute output path
+    // Note that it is being placed in the directory
+    // of the project's static files
     path: path.resolve(__dirname, "public"),
-    // 2.2 Nombre del archivo de salida
-    filename: "bundle.js",
-		// 2.3 Ruta base de archivos estáticos
-		publicPath: "/"
+    // 2.2 Output file name
+    filename: "bundle.js"
   },
-  // 3. Configurando el servidor de desarrollo
-  // El servidor de desarrollo sirve los archivos
-  // empaquetados para no tener que estar reempaquetando
-  // en cada cambio del código.
-  devServer: {
-    // 3.1 Folder de archivos estáticos
-    static: path.join(__dirname, "public"),
-    // 3.2 Puerto del servidor de desarrollo
-    port: 8080,
-    // 3.3 Definiendo el host
-    host: "0.0.0.0"
-  }
+  // Adding a module to webpack
+  module: {
+    rules: [
+      {
+				// This section stablishes 
+				// what rules to apply to ".js" files
+        test: /\.js$/,
+				// We Dont want to transpile any kind of modules
+        exclude: /(node_modules|bower_components)/,
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: [
+                [
+                  '@babel/preset-env',
+                  {
+                    'modules': false,
+                    'useBuiltIns': 'usage',
+                    'targets': '> 0.25%, not dead',
+                    'corejs': 3
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        test: /\.css$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader']
+      }
+    ]
+  },
+  plugins: [new MiniCssExtractPlugin({
+    // Archivo css de salida
+    filename: 'styles/app.css'
+  })]
 }

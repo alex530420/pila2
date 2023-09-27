@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('dwpcii:server');
+var debug = require('debug')('dwpc2:server');
 var http = require('http');
 
 /**
@@ -19,14 +19,14 @@ app.set('port', port);
  * Create HTTP server.
  */
 
-var server = http.createServer(app);// (req, res)=>{...}
+var server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
  */
 
 server.listen(port);
-server.on('error', onError); // callback
+server.on('error', onError);
 server.on('listening', onListening);
 
 /**
@@ -86,5 +86,5 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  debug('📢 Listening on ' + bind);
+  debug('📣 Escuchando Puerto 3000 ' + bind);
 }

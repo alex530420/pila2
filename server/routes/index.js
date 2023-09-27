@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-// GET /
+/* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'ITGAM', author:"Ivan Rivalcoba" });
+  res.render('index', { title: 'ITGAM', author: "Vianney Reyes" });
 });
 
 module.exports = router;
