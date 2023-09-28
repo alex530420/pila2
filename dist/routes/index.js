@@ -7,7 +7,7 @@ var router = express.Router();
 router.get('/', function (req, res, next) {
   res.render('index', {
     title: 'ITGAM',
-    author: "Vianney Reyes"
+    author: "Alejandro Carreon"
   });
 });
 module.exports = router;
