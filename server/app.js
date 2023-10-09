@@ -4,6 +4,19 @@ import WebpackDevMiddleware from 'webpack-dev-middleware';
 import WebpackHotMiddleware from 'webpack-hot-middleware';
 // Importing webpack configuration
 import webpackConfig from '../webpack.dev.config';
+// Impornting winston logger
+import winston from './config/winston';
+// Helps to parse client cookies
+import cookieParser from 'cookie-parser';
+// Library to log http communication
+import morgan from 'morgan';
+
+
+// Helps to handle http errors
+import createError from 'http-errors';
+// Creando variable del directorio raiz
+// eslint-disable-next-line
+global["__rootdir"] = path.resolve(process.cwd());
 
 const createError = require('http-errors');
 const express = require('express');
@@ -51,6 +64,9 @@ if (nodeEnviroment === 'development') {
 // Configurando el motor de plantilla
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
+// Registering middlewares
+// Log all received requests
+app.use(morgan('dev', { stream: winston.stream }));
 
 // Se establecen los middleware
 app.use(logger('dev'));
@@ -70,6 +86,7 @@ app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
+  log.info(`404 Pagina no encontrada ${req.method} ${req.originalUrl}`);
   next(createError(404));
 });
 
@@ -81,6 +98,7 @@ app.use((err, req, res, next) => {
 
   // render the error page
   res.status(err.status || 500);
+  log.error(`${err.status || 500} - ${err.message}`);
   res.render('error');
 });
 
