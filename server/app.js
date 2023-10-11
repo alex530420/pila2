@@ -1,42 +1,43 @@
+// Cargando dependencias
+import createError from 'http-errors';
+
+import express from 'express';
+import path from 'path';
+import cookieParser from 'cookie-parser';
+import morgan from 'morgan';
+
 // Setting Webpack Modules
 import webpack from 'webpack';
 import WebpackDevMiddleware from 'webpack-dev-middleware';
 import WebpackHotMiddleware from 'webpack-hot-middleware';
+
+// Importing template-engine
+import configTemplateEngine from './config/templateEngine';
+
 // Importing webpack configuration
 import webpackConfig from '../webpack.dev.config';
+
 // Impornting winston logger
-import winston from './config/winston';
-// Helps to parse client cookies
-import cookieParser from 'cookie-parser';
-// Library to log http communication
-import morgan from 'morgan';
+import log from './config/winston';
 
+import indexRouter from './routes/index';
+import usersRouter from './routes/users';
+import debug from './services/debugLogger';
 
-// Helps to handle http errors
-import createError from 'http-errors';
 // Creando variable del directorio raiz
 // eslint-disable-next-line
-global["__rootdir"] = path.resolve(process.cwd());
+global['__rootdir'] = path.resolve(process.cwd());
 
-const createError = require('http-errors');
-const express = require('express');
-const path = require('path');
-const cookieParser = require('cookie-parser');
-const logger = require('morgan');
-const debug = require('debug')('dwpc2:server');
-
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
-
-// Se crea la instancia de express
+// Creando la instancia de express
 const app = express();
+
 // Get the execution mode
 const nodeEnviroment = process.env.NODE_ENV || 'production';
 
 // Deciding if we add webpack middleware or not
 if (nodeEnviroment === 'development') {
   // Start Webpack dev server
-  console.log('🛠️  Ejecutando en modo desarrollo');
+  debug('🛠️ Ejecutando en modo desarrollo 🛠️');
   // Adding the key "mode" with its value "development"
   webpackConfig.mode = nodeEnviroment;
   // Setting the dev server port to the same value as the express server
@@ -52,36 +53,35 @@ if (nodeEnviroment === 'development') {
   // Creating the bundler
   const bundle = webpack(webpackConfig);
   // Enabling the webpack middleware
-  app.use(WebpackDevMiddleware(bundle, {
-    publicPath: webpackConfig.output.publicPath,
-  }));
+  app.use(
+    WebpackDevMiddleware(bundle, {
+      publicPath: webpackConfig.output.publicPath,
+    }),
+  );
   //  Enabling the webpack HMR
   app.use(WebpackHotMiddleware(bundle));
 } else {
   console.log('🏭 Ejecutando en modo producción 🏭');
 }
 
-// Configurando el motor de plantilla
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
-// Registering middlewares
-// Log all received requests
-app.use(morgan('dev', { stream: winston.stream }));
+// Configuring the template engine
+configTemplateEngine(app);
 
-// Se establecen los middleware
-app.use(logger('dev'));
+// Se establecen los middlewares
+app.use(morgan('dev', { stream: log.stream }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-// Se crea un server de archivos estaticos
+// Crea un server de archivos estaticos
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
+// Registro de Middlewares de aplicación
 app.use('/', indexRouter);
-// Activa "userRouter" cuando se
-// solicita "/user"
+// Activa "usersRourter" cuando se
+// solicita "/users"
 app.use('/users', usersRouter);
-// app.use('/author', (req, res) => {
-//   res.json({mainDeveloper: "Vianney Reyes"})
+// app.use('/author', (req, res)=>{
+//   res.json({mainDeveloper: "Ivan Rivalcoba"})
 // });
 
 // catch 404 and forward to error handler
@@ -91,7 +91,7 @@ app.use((req, res, next) => {
 });
 
 // error handler
-app.use((err, req, res, next) => {
+app.use((err, req, res) => {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
@@ -102,4 +102,4 @@ app.use((err, req, res, next) => {
   res.render('error');
 });
 
-module.exports = app;
+export default app;

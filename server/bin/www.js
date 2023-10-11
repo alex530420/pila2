@@ -6,7 +6,6 @@
 // Importing the server logic
 // require is used to import code from an external file
 // Importing an external dependecy
-import Debug from 'debug';
 // Module that allows to communicate with a client
 // usign HTTP protocol
 import http from 'http';
@@ -14,8 +13,6 @@ import app from '../app';
 
 // Impornting winston logger
 import log from '../config/winston';
-
-const debug = Debug('projnotes');
 
 /**
  * Normalize a port into a number, string, or false.
