@@ -13,7 +13,7 @@ export default (app) => {
       extname: '.hbs',
       // Se fefine el nombre del layput por defecto
       defaultLayout: 'main',
-    }),
+    })
   );
   console.log(__dirname);
 
