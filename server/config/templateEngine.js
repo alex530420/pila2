@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // Se importa el objeto "engine" y se renombra
 // como "exphbs"
 import { engine as exphbs } from 'express-handlebars';

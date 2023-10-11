@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // Cargando dependencias
 import createError from 'http-errors';
 
@@ -19,6 +20,12 @@ import webpackConfig from '../webpack.dev.config';
 
 // Impornting winston logger
 import log from './config/winston';
+
+// Importando enrutador
+// import router from './router';
+// router.addRoutes(app);
+
+
 
 import indexRouter from './routes/index';
 import usersRouter from './routes/users';
