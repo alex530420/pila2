@@ -55,3 +55,8 @@
 {"level":"info","message":"GET / 304 4.772 ms - -\n","timestamp":"18-10-2023 22:33:31"}
 {"level":"info","message":"GET / 304 4.351 ms - -\n","timestamp":"18-10-2023 22:33:31"}
 {"level":"info","message":"GET / 304 4.690 ms - -\n","timestamp":"18-10-2023 22:33:32"}
+{"level":"info","message":"The server is created from the express instance","timestamp":"23-10-2023 15:12:58"}
+{"level":"info","message":"⭐⭐ Listening on undefined:3000 ⭐⭐","timestamp":"23-10-2023 15:12:58"}
+{"level":"info","message":"GET / 200 18.572 ms - 4785\n","timestamp":"23-10-2023 15:13:02"}
+{"level":"info","message":"GET /favicon.png 200 6.522 ms - 1747\n","timestamp":"23-10-2023 15:13:06"}
+{"level":"info","message":"GET / 304 4.143 ms - -\n","timestamp":"23-10-2023 15:13:12"}
