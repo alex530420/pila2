@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 // Se importa el objeto "engine" y se renombra
 // como "exphbs"
 import { engine as exphbs } from 'express-handlebars';
@@ -14,7 +13,7 @@ export default (app) => {
       extname: '.hbs',
       // Se fefine el nombre del layput por defecto
       defaultLayout: 'main',
-    })
+    }),
   );
   console.log(__dirname);
 

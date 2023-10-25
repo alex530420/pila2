@@ -1,25 +1,21 @@
-/* eslint-disable prettier/prettier */
 // Actions methods
+// GET "/login"
+const login = (req, res) => {
+  res.send("🚧 UNDER CONSTRUCTION '/user/login' 🚧");
+};
 
-  // GET '/user/login'
-  const login  =(req, res) =>{
-    res.send("🚧 UNDER CONSTRUCTION GET GET '/user/login' 🚧");
-  };
-  // GET '/user/logout'
-  const logout  =(req, res) =>{
-    res.send("🚧 UNDER CONSTRUCTION GET GET '/user/logout' 🚧");
-  };
-  // GET '/user/registrar'
-  const registrar  =(req, res) =>{
-    res.send("🚧 UNDER CONSTRUCTION GET GET '/user/logout' 🚧");
-  };
+// GET "/logout"
+const logout = (req, res) => {
+  res.send("🚧 UNDER CONSTRUCTION '/user/logout' 🚧");
+};
 
+// GET "/register"
+const register = (req, res) => {
+  res.send("🚧 UNDER CONSTRUCTION '/user/register' 🚧");
+};
 
-
-
-  // Controlador Home
-  export default {
-    login,
-    logout,
-    registrar,
-  };
+export default {
+  login,
+  logout,
+  register,
+};
