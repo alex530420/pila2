@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // Actions methods
 
 // GET /project/projects
@@ -12,9 +13,16 @@ const showDashboard = (req, res) => {
 const addForm = (req, res) => {
   res.render('project/addView');
 };
+// POST "/project/add"
+// eslint-disable-next-line prettier/prettier
+// POST "/project/add"
+const addPost = (req, res) => {
+  res.status(200).json(req.body);
+};
 
 // Controlador Home
 export default {
   showDashboard,
   addForm,
+  addPost,
 };
