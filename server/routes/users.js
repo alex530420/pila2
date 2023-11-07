@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 
 // Get /users/author
 router.get('/author', (_, res) => {
-  res.render('author', { author: 'Vianney Landin' });
+  res.render('author', { author: 'alex' });
 });
 
 export default router;
