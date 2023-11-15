@@ -1,17 +1,18 @@
-// Actions methods
-// GET "/login"
+// Action Methods
+
+// Get '/user/login'
 const login = (req, res) => {
-  res.send("🚧 UNDER CONSTRUCTION '/user/login' 🚧");
+  res.send("🚧 UNDER CONSTRUCTION GET '/user/login'🚧");
 };
 
-// GET "/logout"
+// Get '/user/logout'
 const logout = (req, res) => {
-  res.send("🚧 UNDER CONSTRUCTION '/user/logout' 🚧");
+  res.send("🚧 UNDER CONSTRUCTION GET '/user/logout'🚧");
 };
 
-// GET "/register"
+// Get '/user/register'
 const register = (req, res) => {
-  res.send("🚧 UNDER CONSTRUCTION '/user/register' 🚧");
+  res.send("🚧 UNDER CONSTRUCTION GET '/user/register'🚧");
 };
 
 export default {
