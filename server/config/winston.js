@@ -36,9 +36,8 @@ const myConsoleFormat = combine(
   timestamp({ format: 'DD-MM-YYYY HH:mm:ss' }),
   // Función de impreson
   printf(
-    (info) =>
-      `${info.level}: ${info.label}: ${info.timestamp}: ${info.message}`,
-  ),
+    (info) => `${info.level}: ${info.label}: ${info.timestamp}: ${info.message}`
+  )
 );
 
 // Formato para los archivos
@@ -48,6 +47,7 @@ const myFileFormat = combine(
   // Agregando fecha
   timestamp({ format: 'DD-MM-YYYY HH:mm:ss' }),
   // Estableciendo la salida en formato Json
+  // eslint-disable-next-line prettier/prettier
   prettyPrint(),
 );
 
@@ -115,4 +115,5 @@ logger.stream = {
 };
 
 // Por ultimo exportamos el logger
+// eslint-disable-next-line prettier/prettier
 export default logger;
