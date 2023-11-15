@@ -1,12 +1,12 @@
 {
-  "name": "dwpc2",
+  "name": "projnotes-2023a-class",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./dist/bin/www",
-    "dev": "NODE_ENV=development DEBUG=dwpc2:server babel-watch ./server/bin/www",
+    "start": "NODE_ENV=production DEBUG=projnotes node ./dist/bin/www",
+    "dev": "NODE_ENV=development DEBUG=projnotes babel-watch --watch ./server/views ./server/bin/www",
     "devc": "NODE_ENV=development webpack serve --config ./webpack.dev.config.js --mode development",
-    "build": "npm run b:c && npm run b:s",
+    "build": "npm run buildc && npm run builds",
     "builds": "npm run clean && babel ./server --out-dir dist --copy-files",
     "buildc": "npm run cleanc && webpack --config ./webpack.config.js --mode production",
     "clean": "rm -rf ./dist",
@@ -18,19 +18,20 @@
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "express-handlebars": "^7.1.2",
+    "express-handlebars": "^7.0.7",
     "hbs": "^4.2.0",
     "http-errors": "~1.6.3",
     "materialize-css": "^1.0.0-rc.2",
-    "mongoose": "^7.6.3",
+    "mongoose": "^7.2.0",
     "morgan": "~1.9.1",
     "supports-color": "^9.3.1",
     "webpack": "^5.76.1",
     "webpack-dev-middleware": "^6.0.2",
     "webpack-hot-middleware": "^2.25.3",
-    "winston": "^3.8.2"
+    "winston": "^3.8.2",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
