@@ -66,13 +66,14 @@ if (nodeEnviroment === 'development') {
 
 // Configuring the template engine
 configTemplateEngine(app);
-//  Database connecition Checker Middleware
+
+// Database connection Checker Middleware
 app.use((req, res, next) => {
   if (mongoose.connection.readyState === 1) {
-    log.info('✅ Verificacion de conexion a db exitosa');
+    log.info('✅ Verificación de conexión a db existosa.');
     next();
   } else {
-    log.info('🔴 No pasa la verificacion de conexion a la db');
+    log.info('🔴 No pasa la verificacion de conexión a la BD');
     res.status(503).render('errors/e503View', { layout: 'errors' });
   }
 });

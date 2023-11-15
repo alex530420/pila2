@@ -7,7 +7,7 @@ const home = (req, res) => {
   res.render('home/homeView', { icon });
 };
 
-// GET /project/about
+// GET "/about"
 const about = (req, res) => {
   res.render('home/aboutView', { appVersion: '1.0.0' });
 };
