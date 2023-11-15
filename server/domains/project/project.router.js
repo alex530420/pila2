@@ -5,7 +5,7 @@ import { Router } from 'express';
 import projectController from './project.controller';
 
 // Importando factory de validación
-import ValidateFactory from '../../services/validateFactory';
+import ValidateFactory from '../../services/validateFactoy';
 // Importando el validador de proyectos
 import projectValidator from './project.validator';
 

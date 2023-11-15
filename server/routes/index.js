@@ -4,7 +4,7 @@ const router = express.Router();
 
 /* GET */
 router.get('/', (req, res) => {
-  res.render('index', { title: 'New Title', author: 'alex' });
+  res.render('index', { title: 'New Title', author: 'Vianney Landin' });
 });
 
 export default router;
