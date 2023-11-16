@@ -19,9 +19,14 @@
                     type="text"
                     id="project-name"
                     name="name"
-                    required
+                    
                     placeholder="Ingrese nombre del proyecto"
                     class="validate">
+                    value="{{ project.name }}"
+
+                    {{#if errorModel.name }}
+    <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+  {{/if}}
                 </div>
                 <div class="imput-field">
                      <label for="project-description">
@@ -30,8 +35,11 @@
                     <textarea 
                     name="description" 
                     id="project-description"
-                    required
-                    class="materialize-textarea"></textarea>
+                   
+                    class="materialize-textarea" required>{{project.description}}</textarea>
+                      {{#if errorModel.description }}
+    <span style="color: crimson;">Error: {{ errorModel.description }}</span>
+  {{/if}}
                 </div>
             </div>
             <div class="card-action">

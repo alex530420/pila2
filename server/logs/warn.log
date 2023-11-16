@@ -1511,3 +1511,148 @@
   level: 'info',
   timestamp: '15-11-2023 13:54:08'
 }
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '16-11-2023 21:17:54'
+}
+{
+  message: '✔ Conectado a MongoDB',
+  level: 'info',
+  timestamp: '16-11-2023 21:17:54'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '16-11-2023 21:17:54'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:03'
+}
+{
+  message: 'GET / 200 54.962 ms - 5680\n',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:03'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:03'
+}
+{
+  message: 'GET /images/Projnotes-logo.jpeg 404 1.610 ms - 165\n',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:03'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:04'
+}
+{
+  message: 'GET /favicon.ico 200 4.818 ms - 102807\n',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:04'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:07'
+}
+{
+  message: 'GET /project/add 200 4.494 ms - 6785\n',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:07'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:07'
+}
+{
+  message: 'GET /project/images/Projnotes-logo.jpeg 404 0.808 ms - 173\n',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:07'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:07'
+}
+{
+  message: 'GET /images/addproject.png 200 1.371 ms - 250615\n',
+  level: 'info',
+  timestamp: '16-11-2023 21:18:07'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:02'
+}
+{
+  message: 'GET /project/add 200 5.966 ms - 6769\n',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:02'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:03'
+}
+{
+  message: 'GET /project/images/Projnotes-logo.jpeg 404 0.544 ms - 173\n',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:03'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:03'
+}
+{
+  message: 'GET /images/addproject.png 304 0.884 ms - -\n',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:03'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:03'
+}
+{
+  message: 'GET /favicon.ico 304 1.013 ms - -\n',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:03'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:08'
+}
+{
+  message: 'Se extraen datos de la petición: name , description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. \r\n' +
+    'Integer vel malesuada urna. Phasellus consequat sem eu lectus tincidunt, \r\n' +
+    'eu malesuada urna dignissim. In pretium hendrerit libero, ut aliquet mi consequat vel. \r\n' +
+    'Quisque pellentesque nisi ut tellus suscipit vestibulum. Nullam lobortis malesuada justo, \r\n' +
+    'a posuere massa sagittis vel. Sed nec mi sed lacus fringilla pulvinar a sit amet ipsum. \r\n' +
+    'Aenean ultricies pharetra commodo. Curabitur aliquam consectetur justo, \r\n' +
+    'nec faucibus est commodo et. Mauris commodo elit ut purus commodo dapibus. \r\n' +
+    'Donec posuere malesuada odio. Fusce tincidunt ligula a est tincidunt, \r\n' +
+    'ut hendrerit elit rutrum. Proin auctor nulla ac congue tempus. \r\n' +
+    'Vestibulum finibus vehicula eros, et interdum risus tincidunt et. \r\n' +
+    'Aenean posuere, neque et auctor eleifend, arcu enim luctus enim, at faucibus turpis quam ac lectus.',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:08'
+}
+{
+  message: 'Se entrega al cliente error de validación de add Project',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:08'
+}
+{
+  message: 'POST /project/add 422 13.364 ms - 4477\n',
+  level: 'info',
+  timestamp: '16-11-2023 21:19:08'
+}

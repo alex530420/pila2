@@ -1,3 +1,4 @@
+
 {
   message: '❌ Fallo la conexion a Mongodb: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
   level: 'error',
@@ -307,4 +308,9 @@
   message: 'Intentando a la conexion en 20 seg',
   level: 'error',
   timestamp: '07-11-2023 21:57:39'
+}
+	{
+	"nombreDelCampo1" : "nombre del campo 1",
+	"nombreDelCampo2" : "nombre del campo 2",
+
 }
