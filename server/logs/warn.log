@@ -1781,3 +1781,148 @@
   level: 'info',
   timestamp: '16-11-2023 21:39:36'
 }
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '16-11-2023 23:43:51'
+}
+{
+  message: '✔ Conectado a MongoDB',
+  level: 'info',
+  timestamp: '16-11-2023 23:43:51'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '16-11-2023 23:43:51'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:43:59'
+}
+{
+  message: 'GET / 200 21.417 ms - 5679\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:43:59'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:44:00'
+}
+{
+  message: 'GET /images/Projnotes-logo.jpeg 404 11.056 ms - 165\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:44:00'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:44:02'
+}
+{
+  message: 'GET /project/add 200 16.594 ms - 7121\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:44:02'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:44:02'
+}
+{
+  message: 'GET /project/images/Projnotes-logo.jpeg 404 2.536 ms - 173\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:44:02'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:44:02'
+}
+{
+  message: 'GET /images/addproject.png 304 0.729 ms - -\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:44:02'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:47:06'
+}
+{
+  message: 'GET /project/add 200 8.898 ms - 7124\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:47:06'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:47:06'
+}
+{
+  message: 'GET /images/addproject.png 304 2.888 ms - -\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:47:06'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:47:06'
+}
+{
+  message: 'GET /project/images/Projnotes-logo.jpeg 404 0.575 ms - 173\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:47:06'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:47:07'
+}
+{
+  message: 'GET /favicon.ico 304 0.650 ms - -\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:47:07'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:51:54'
+}
+{
+  message: 'GET /project/add 200 7.528 ms - 7117\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:51:54'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:51:54'
+}
+{
+  message: 'GET /images/addproject.png 304 1.175 ms - -\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:51:54'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:51:54'
+}
+{
+  message: 'GET /project/images/Projnotes-logo.jpeg 404 1.157 ms - 173\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:51:54'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '16-11-2023 23:51:55'
+}
+{
+  message: 'GET /favicon.ico 304 0.733 ms - -\n',
+  level: 'info',
+  timestamp: '16-11-2023 23:51:55'
+}
