@@ -1926,3 +1926,128 @@
   level: 'info',
   timestamp: '16-11-2023 23:51:55'
 }
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '17-11-2023 00:05:54'
+}
+{
+  message: '✔ Conectado a MongoDB',
+  level: 'info',
+  timestamp: '17-11-2023 00:05:54'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '17-11-2023 00:05:54'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:02'
+}
+{
+  message: 'GET / 200 37.234 ms - 5679\n',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:02'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:03'
+}
+{
+  message: 'GET /images/Projnotes-logo.jpeg 404 12.409 ms - 165\n',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:03'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:03'
+}
+{
+  message: 'GET /favicon.ico 200 1.907 ms - 102807\n',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:03'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:06'
+}
+{
+  message: 'GET /project/add 200 11.391 ms - 7117\n',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:06'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:06'
+}
+{
+  message: 'GET /project/images/Projnotes-logo.jpeg 404 0.832 ms - 173\n',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:06'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:06'
+}
+{
+  message: 'GET /images/addproject.png 200 1.514 ms - 250615\n',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:06'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:44'
+}
+{
+  message: 'Se extraen datos de la petición: name primer proyecto, description: sistema de admistracion',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:44'
+}
+{
+  message: 'Se entrega al cliente información del proyecto cargado',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:44'
+}
+{
+  message: 'POST /project/add 200 21.004 ms - 141\n',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:44'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:56'
+}
+{
+  message: 'GET /project/add 200 8.945 ms - 7117\n',
+  level: 'info',
+  timestamp: '17-11-2023 00:06:56'
+}
+{
+  message: '✔ verificacion de conexicion a db exitosa',
+  level: 'info',
+  timestamp: '17-11-2023 00:07:37'
+}
+{
+  message: 'Se extraen datos de la petición: name Primer proyecto, description: Sistema de biblioteca',
+  level: 'info',
+  timestamp: '17-11-2023 00:07:37'
+}
+{
+  message: 'Se entrega al cliente información del proyecto cargado',
+  level: 'info',
+  timestamp: '17-11-2023 00:07:37'
+}
+{
+  message: 'POST /project/add 200 4.865 ms - 139\n',
+  level: 'info',
+  timestamp: '17-11-2023 00:07:37'
+}
