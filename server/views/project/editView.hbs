@@ -1,34 +1,32 @@
-<div class='row'>
-  <div class='col s12 m10 offset-m1 18 offset-12'>
-    <div class='card'>
-      <div class='card-image'>
-        <img src='/images/addproject.png' alt='Imagen creacion de proyecto' />
-        <span class='card-title add-project' style='font-weight: bolder;'>
-          Editar Proyecto
+<div class="row">
+  <div class="col s12 m10 offset-m1 l8 offset-l2">
+    <div class="card">
+      <div class="card-image">
+        <img src="/img/addproject.png" alt="">
+        <span class="card-title add-project" style="font-weight: bolder;">
+          Editar proyecto
         </span>
       </div>
       <form autocomplete="off" action="/project/edit/{{ project._id }}?_method=put" method="post">
-     <div class='card-content'>
+        <div class="card-content">
           <div class='input-field'>
-            <label for='project-name'>
-              Nombre del proyecto
-            </label>
+            <label for='project-name'>Nombre de tu idea de proyecto</label>
             <input
-              type='text'
+              placeholder='El nombre del proyecto aqui 👇'
               id='project-name'
               name='name'
-              placeholder='Ingrese nombre del proyecto'
-              class='validate'
-              value='{{project.name}}'
+              type='text'
+              class="validate"
+              value="{{ project.name }}"
               required
             />
-            <span
-              class='helper-text'
-              data-error='👆 Es necesario ingresar el nombre del proyecto 👆'
-              data-success='✅ Correcto'
-            ></span>
-            {{#if errorModel.name}}
-              <span style='color: crimson;'>Error: {{errorModel.name}}</span>
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar el nombre del proyecto"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
             {{/if}}
           </div>
           <div class='input-field'>
@@ -36,26 +34,22 @@
               Descripción del proyecto
             </label>
             <textarea
-              name='description'
               id='project-description'
-              class='materialize-textarea validate'
-              required
-            >{{project.description}}</textarea>
-            <span
-              class='helper-text'
-              data-error='👆 Debe ingresar una descripción 👆'
-              data-success='✅ Correcto'
-            ></span>
-            {{#if errorModel.description}}
-              <span style='color: crimson;'>Error:
-                {{errorModel.description}}</span>
+              name='description'
+              class="materialize-textarea validate" required>{{project.description}}</textarea>
+              <span 
+              class="helper-text"
+              data-error="Debe ingresar una descripción"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.description }}
+            <span style="color: crimson;">Error: {{ errorModel.description }}</span>
             {{/if}}
           </div>
         </div>
-        <div class='card-action'>
-          <button class='blue darken-3 waves-effect waves-light btn'>
-            <i class='material-icons left'>edit</i>
-            Editar
+        <div class="card-action">
+          <button type="submit" class="blue darken-3 waves-effect waves-light btn">
+            <i class="material-icons left">edit</i> Editar
           </button>
         </div>
       </form>

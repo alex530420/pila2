@@ -8,13 +8,12 @@ import ProjectModel from './project.model';
 
 // Actions methods
 // GET "/project"
-// GET "/project"
 const showDashboard = async (req, res) => {
   // Consultado todos los proyectos
   const projects = await ProjectModel.find({}).lean().exec();
   // Enviando los proyectos al cliente en JSON
   log.info('Se entrega dashboard de proyectos');
-  res.render('project/dashboardViews', { projects });
+  res.render('project/dashboardView', { projects });
 };
 
 // GET "/project/add"
@@ -50,11 +49,9 @@ const addPost = async (req, res) => {
     // Creando la instancia de un documento
     // con los valores de 'project'
     const savedProject = await ProjectModel.create(project);
-    // Se informa al cliente que se guardo el proyecto
+    // Se contesta la información del proyecto al cliente
     log.info(`Se carga proyecto ${savedProject}`);
-    // Se registra en el log el redireccionamiento
     log.info('Se redirecciona el sistema a /project');
-    // Se redirecciona el sistema a la ruta '/project'
     return res.redirect('/project');
   } catch (error) {
     log.error(
@@ -78,8 +75,6 @@ const edit = async (req, res) => {
         .status(404)
         .json({ fail: `No se encontro el proyecto con el id: ${id}` });
     }
-    // Se manda a renderizar la vista de edición
-    // res.render('project/editView', project);
     // Se manda a renderizar la vista de edición
     log.info(`Proyecto encontrado con el id: ${id}`);
     return res.render('project/editView', { project });
@@ -111,6 +106,7 @@ const editPut = async (req, res) => {
     return res.status(422).render('project/editView', { project, errorModel });
   }
   // Si no hay error
+
   const project = await ProjectModel.findOne({ _id: id });
   if (project === null) {
     log.info(`No se encontro documento para actualizar con id: ${id}`);
@@ -132,6 +128,7 @@ const editPut = async (req, res) => {
     return res.status(500).json(error);
   }
 };
+
 // Controlador user
 export default {
   // Action Methods
