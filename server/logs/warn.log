@@ -2051,3 +2051,314 @@
   level: 'info',
   timestamp: '17-11-2023 00:07:37'
 }
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '20-11-2023 20:35:53'
+}
+{
+  message: '✔ Conectado a MongoDB',
+  level: 'info',
+  timestamp: '20-11-2023 20:35:53'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '20-11-2023 20:35:53'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:36:03'
+}
+{
+  message: 'GET / 200 22.575 ms - 5680\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:36:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:36:03'
+}
+{
+  message: 'GET /images/Projnotes-logo.jpeg 404 1.692 ms - 165\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:36:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:36:04'
+}
+{
+  message: 'GET /favicon.ico 200 1.819 ms - 102807\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:36:04'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:38:55'
+}
+{
+  message: 'GET /project/add 200 17.406 ms - 6870\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:38:55'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:38:55'
+}
+{
+  message: 'GET /images/addproject.png 200 6.666 ms - 250615\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:38:55'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:38:55'
+}
+{
+  message: 'GET /project/images/Projnotes-logo.jpeg 404 0.804 ms - 173\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:38:55'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:39:03'
+}
+{
+  message: 'Se extraen datos de la petición: name ss, description: ssss',
+  level: 'info',
+  timestamp: '20-11-2023 20:39:03'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  name: 'ss',\n" +
+    "  description: 'ssss',\n" +
+    '  _id: new ObjectId("655bc3e78edfbe9bfa336f5b"),\n' +
+    '  date: 2023-11-20T20:39:03.050Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '20-11-2023 20:39:03'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '20-11-2023 20:39:03'
+}
+{
+  message: 'POST /project/add 302 23.194 ms - 60\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:39:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:39:03'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '20-11-2023 20:39:03'
+}
+{
+  message: 'GET /project 200 14.195 ms - 5885\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:39:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:39:03'
+}
+{
+  message: 'GET /images/Projnotes-logo.jpeg 404 1.099 ms - 165\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:39:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:40:28'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 655bc3e78edfbe9bfa336f5b',
+  level: 'info',
+  timestamp: '20-11-2023 20:40:28'
+}
+{
+  message: 'Proyecto encontrado con el id: 655bc3e78edfbe9bfa336f5b',
+  level: 'info',
+  timestamp: '20-11-2023 20:40:28'
+}
+{
+  message: 'GET /project/edit/655bc3e78edfbe9bfa336f5b 200 11.127 ms - 6986\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:40:28'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:40:28'
+}
+{
+  message: 'GET /project/edit/images/Projnotes-logo.jpeg 404 1.653 ms - 178\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:40:28'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 20:40:28'
+}
+{
+  message: 'GET /images/addproject.png 304 0.779 ms - -\n',
+  level: 'info',
+  timestamp: '20-11-2023 20:40:28'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 21:06:46'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 655bc3e78edfbe9bfa336f5b',
+  level: 'info',
+  timestamp: '20-11-2023 21:06:46'
+}
+{
+  message: 'Proyecto encontrado con el id: 655bc3e78edfbe9bfa336f5b',
+  level: 'info',
+  timestamp: '20-11-2023 21:06:46'
+}
+{
+  message: 'GET /project/edit/655bc3e78edfbe9bfa336f5b 200 13.404 ms - 6986\n',
+  level: 'info',
+  timestamp: '20-11-2023 21:06:46'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 21:06:46'
+}
+{
+  message: 'GET /images/addproject.png 304 0.503 ms - -\n',
+  level: 'info',
+  timestamp: '20-11-2023 21:06:46'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 21:06:46'
+}
+{
+  message: 'GET /project/edit/images/Projnotes-logo.jpeg 404 4.730 ms - 178\n',
+  level: 'info',
+  timestamp: '20-11-2023 21:06:46'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:08'
+}
+{
+  message: 'Se extraen datos de la petición: name ss, description: ssss',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:08'
+}
+{
+  message: 'Actualizando proyecto con id: 655bc3e78edfbe9bfa336f5b',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:08'
+}
+{
+  message: 'PUT /project/edit/655bc3e78edfbe9bfa336f5b?_method=put 302 6.069 ms - 120\n',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:08'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:08'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 655bc3e78edfbe9bfa336f5b',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:08'
+}
+{
+  message: 'Proyecto encontrado con el id: 655bc3e78edfbe9bfa336f5b',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:08'
+}
+{
+  message: 'GET /project/edit/655bc3e78edfbe9bfa336f5b 200 8.248 ms - 6986\n',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:08'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:08'
+}
+{
+  message: 'GET /project/edit/images/Projnotes-logo.jpeg 404 0.987 ms - 178\n',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:08'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:09'
+}
+{
+  message: 'GET /images/addproject.png 304 0.548 ms - -\n',
+  level: 'info',
+  timestamp: '20-11-2023 21:11:09'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 21:17:51'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 655bc3e78edfbe9bfa336f5b',
+  level: 'info',
+  timestamp: '20-11-2023 21:17:51'
+}
+{
+  message: 'Proyecto encontrado con el id: 655bc3e78edfbe9bfa336f5b',
+  level: 'info',
+  timestamp: '20-11-2023 21:17:51'
+}
+{
+  message: 'GET /project/edit/655bc3e78edfbe9bfa336f5b 304 7.145 ms - -\n',
+  level: 'info',
+  timestamp: '20-11-2023 21:17:51'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 21:17:51'
+}
+{
+  message: 'GET /images/addproject.png 304 3.255 ms - -\n',
+  level: 'info',
+  timestamp: '20-11-2023 21:17:51'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '20-11-2023 21:17:51'
+}
+{
+  message: 'GET /project/edit/images/Projnotes-logo.jpeg 404 0.624 ms - 178\n',
+  level: 'info',
+  timestamp: '20-11-2023 21:17:51'
+}
