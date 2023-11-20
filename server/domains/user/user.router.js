@@ -4,17 +4,17 @@ import { Router } from 'express';
 // Importando el controlador
 import userController from './user.controller';
 
-// Creando una isntancia del enrutador
+// Creando una instancia del enrutador
 const router = new Router();
 
 // Enrutamos
-// GET '/user/login'
+// GET '/user/login
 router.get('/login', userController.login);
 
-// GET '/user/logout'
+// GET '/user/logout
 router.get('/logout', userController.logout);
 
-// GET '/user/register'
+// GET '/user/register
 router.get('/register', userController.register);
 
 // Exporto este tramo de ruta

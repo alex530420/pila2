@@ -1,12 +1,13 @@
-// Importando Mongoose
+// importando mongoose
 import mongoose from 'mongoose';
-// Desestructurando un generador de Schemas de mongoose
+// Desestructurando la funcion Schema Special
 const { Schema } = mongoose;
 
-// Creando el esquema
+// Construir un Schema
 const ProjectSchema = new Schema({
   name: {
     type: String,
+    // siempre se ocupa que no quieras un espacio vacio
     required: true,
   },
   description: {
@@ -19,6 +20,6 @@ const ProjectSchema = new Schema({
   },
 });
 
-// Exportando la compilacon de ProjectSchema
-// en un modelo de mongoose
+// Compilando el esquema para
+// generar un modelo
 export default mongoose.model('project', ProjectSchema);
