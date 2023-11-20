@@ -8,9 +8,9 @@ const router = Router();
 router.get('/author', (req, res) => {
   // Responding to the client using res object
   res.json({
-    name: 'ALEX',
-    lastname: 'CARREON',
-    job: '',
+    name: 'Luis Alfonso',
+    lastname: 'Guzman Jimenez',
+    job: 'Expendio bimbo',
   });
 }); // function(req, res){}
 

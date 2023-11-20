@@ -1,12 +1,13 @@
-// Importando Mongoose
+// importando mongoose
 import mongoose from 'mongoose';
-// Desestructurando la fn Schema
+// Desestructurando la funcion Schema Special
 const { Schema } = mongoose;
 
 // Construir un Schema
 const ProjectSchema = new Schema({
   name: {
     type: String,
+    // siempre se ocupa que no quieras un espacio vacio
     required: true,
   },
   description: {
