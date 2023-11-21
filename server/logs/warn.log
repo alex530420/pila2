@@ -2714,3 +2714,114 @@
   level: 'info',
   timestamp: '21-11-2023 00:12:00'
 }
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '21-11-2023 00:18:15'
+}
+{
+  message: 'GET /project/add 200 10.852 ms - 6523\n',
+  level: 'info',
+  timestamp: '21-11-2023 00:18:15'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:01'
+}
+{
+  message: 'Se extraen datos de la petición: name DSDSD, description: SDSDSD',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:01'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  name: 'DSDSD',\n" +
+    "  description: 'SDSDSD',\n" +
+    '  _id: new ObjectId("655bfa09151104928f8ede00"),\n' +
+    '  date: 2023-11-21T00:30:01.692Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:01'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:01'
+}
+{
+  message: 'POST /project/add 302 5.959 ms - 60\n',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:01'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:01'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:01'
+}
+{
+  message: 'GET /project 200 8.926 ms - 5895\n',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:01'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:02'
+}
+{
+  message: 'GET /images/Projnotes-logo.jpeg 404 2.278 ms - 165\n',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:02'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:16'
+}
+{
+  message: 'DELETE /project/655bfa09151104928f8ede00 200 3.053 ms - 114\n',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:16'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:16'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:16'
+}
+{
+  message: 'GET /project 200 11.138 ms - 5159\n',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:16'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:16'
+}
+{
+  message: 'GET /images/Projnotes-logo.jpeg 404 2.020 ms - 165\n',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:16'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:16'
+}
+{
+  message: 'GET /favicon.ico 304 6.018 ms - -\n',
+  level: 'info',
+  timestamp: '21-11-2023 00:30:16'
+}
