@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // Importing winston logger
 import log from '../../config/winston';
 
