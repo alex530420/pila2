@@ -12,7 +12,7 @@ export default async function deleteProject(id) {
       window.location.reload();
     } else {
       throw new Error(
-        `Error deleting resource with ID ${id}: ${response.status} ${response.statusText}`,
+        `Error deleting resource with ID ${id}: ${response.status} ${response.statusText}`
       );
     }
   } catch (error) {
