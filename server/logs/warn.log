@@ -3200,3 +3200,153 @@
   level: 'info',
   timestamp: '27-11-2023 23:44:45'
 }
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:48:56'
+}
+{
+  message: 'Se entrega formulario de registro',
+  level: 'info',
+  timestamp: '27-11-2023 23:48:56'
+}
+{
+  message: 'GET /user/register 200 13.411 ms - 6574\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:48:56'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:48:56'
+}
+{
+  message: 'GET /user/images/Projnotes-logo.jpeg 404 2.446 ms - 170\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:48:56'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:24'
+}
+{
+  message: 'Se procesa formulario de registro',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:24'
+}
+{
+  message: 'POST /user/register 200 13.014 ms - 658\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:24'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:48'
+}
+{
+  message: 'Se entrega formulario de registro',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:48'
+}
+{
+  message: 'GET /user/register 200 12.425 ms - 6574\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:48'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:53'
+}
+{
+  message: 'Se entrega formulario de registro',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:53'
+}
+{
+  message: 'GET /user/register 200 11.085 ms - 6574\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:53'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:53'
+}
+{
+  message: 'GET /user/images/Projnotes-logo.jpeg 404 2.742 ms - 170\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:53'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:54'
+}
+{
+  message: 'GET /favicon.ico 304 4.218 ms - -\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:54'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:57'
+}
+{
+  message: 'Se entrega formulario de login',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:57'
+}
+{
+  message: 'GET /user/login 200 11.534 ms - 5870\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:57'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:57'
+}
+{
+  message: 'GET /user/images/Projnotes-logo.jpeg 404 8.247 ms - 170\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:57'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:57'
+}
+{
+  message: 'GET /images/project.jpg 404 2.462 ms - 157\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:49:57'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:50:03'
+}
+{
+  message: 'Se entrega formulario de registro',
+  level: 'info',
+  timestamp: '27-11-2023 23:50:03'
+}
+{
+  message: 'GET /user/register 304 8.983 ms - -\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:50:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:50:03'
+}
+{
+  message: 'GET /user/images/Projnotes-logo.jpeg 404 2.940 ms - 170\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:50:03'
+}
