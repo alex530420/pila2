@@ -3155,3 +3155,48 @@
   level: 'info',
   timestamp: '23-11-2023 22:54:29'
 }
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '27-11-2023 23:44:35'
+}
+{
+  message: '✔ Conectado a MongoDB',
+  level: 'info',
+  timestamp: '27-11-2023 23:44:35'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '27-11-2023 23:44:35'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:44:43'
+}
+{
+  message: 'GET / 200 29.955 ms - 5332\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:44:43'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:44:44'
+}
+{
+  message: 'GET /images/Projnotes-logo.jpeg 404 20.642 ms - 165\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:44:44'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '27-11-2023 23:44:45'
+}
+{
+  message: 'GET /favicon.ico 200 3.356 ms - 102807\n',
+  level: 'info',
+  timestamp: '27-11-2023 23:44:45'
+}
